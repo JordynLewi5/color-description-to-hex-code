@@ -5,7 +5,6 @@ main("dark blue and spongebob");
 
 // Methods
 async function main(colorDescription) {
-
     /**
      * Extract a hex code color scheme from the color description.
      * If the color description exists in the colorMap.json file, we 
