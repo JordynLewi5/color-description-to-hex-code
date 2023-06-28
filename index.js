@@ -1,10 +1,11 @@
 const getHexCode = require('./src/getHexCode.js');
 
 // Main
-main("dark blue and spongebob");
+main();
 
 // Methods
-async function main(colorDescription) {
+async function main() {
+    let colorDescription = 'A color scheme with a green, red, white, and gold color.';
     /**
      * Extract a hex code color scheme from the color description.
      * If the color description exists in the colorMap.json file, we 
