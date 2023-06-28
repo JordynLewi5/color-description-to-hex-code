@@ -1,5 +1,5 @@
-# empire-state-building-colors
-Fetches the current color scheme for the lights on the [Empire State Building](https://www.esbnyc.com). From the color scheme description, we use OpenAI's API to extract some list of hex codes that best match the description. This is necessary because the color description will often be very verbose and may contain unique color schemes. 
+# color-description-to-hex-code
+From the color scheme description, we use OpenAI's API to extract some list of hex codes that best match the description. This is necessary because the color description will often be very verbose and may contain unique color schemes. 
 
 The color description and corresponding hex codes are saved to a map in `src/colorMap.json` to save tokens. If a color description that exists in the color map is encountered, then we just use the hex codes previously generated.
 

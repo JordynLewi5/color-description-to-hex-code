@@ -1,5 +1,9 @@
 {
-  "signature white": [
+  "white": [
     "#FFFFFF"
+  ],
+  "dark blue and spongebob": [
+    "#00008B",
+    "#FFD700"
   ]
 }
